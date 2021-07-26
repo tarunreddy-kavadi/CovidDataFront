@@ -30,7 +30,7 @@ export default function Add_Case() {
            
 
    }
-   //Adding the Cases 
+   //Adding the Cases
    axios.post(url="http://localhost:5002/addcase/", CovidData)
    .then(res => console.log(res.data));
    }
